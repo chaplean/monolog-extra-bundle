@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    application:
+        container_name: monolog_extra_bundle_app
+        build: .
+        volumes:
+            - .:/var/www/symfony
